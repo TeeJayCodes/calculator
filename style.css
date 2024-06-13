@@ -46,3 +46,15 @@
 .buttons .row-2 button, .buttons .row-3 button, .buttons .row-4 button, .buttons .row-5 button {
     width: calc((400px / 4) - 10px);
 }
+
+.disableButton {
+    opacity: 0.33;
+}
+
+.enableButton {
+    opacity: 1;
+}
+
+.highlightButton {
+    border-color: blue !important;
+}
